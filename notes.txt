@@ -35,3 +35,5 @@ means give background colot to the section and give max-widtn and padding  to co
 14.gap-row and gap-column seprate proptery  availbale in grid.
 
 15. step-img-box::before  here width 60% workinh but height is not working so use padding-bottom:60% .
+
+16. in image greyscale property, briteness, blur are important property . so please check that. we can make color ful image in gray and in hover we make colorful like in logos section.
