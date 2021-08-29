@@ -80,6 +80,40 @@ body {
 /* GENRAL REUSEABLE COMPONENTS */
 /* ********************************** */
 
+
+.container{
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+
+}
+
+.grid{
+  display: grid;
+gap: 9.6rem;
+/* its  same as grid-template-columns: 1fr 1fr; */
+}
+
+.grid-2-cols{
+grid-template-columns: repeat(2,1fr);
+
+}
+
+.grid-3-cols{
+grid-template-columns: repeat(3,1fr);
+
+}
+
+.grid-4-cols{
+grid-template-columns: repeat(4,1fr);
+
+}
+
+
+
+
+
+
 .heading-primary{
     font-size: 5.2rem;
     font-weight: 700;
@@ -127,9 +161,11 @@ color: #555;
 .margin-right-sm{
   margin-right: 1.6rem !important;
 }
+
 /* ********************************** */
-/* HEADER SECTION */
+/* NAVIGATION */
 /* ********************************** */
+
 
 .logo{
   height: 2.4rem;
@@ -144,9 +180,6 @@ padding: 0 4.8rem;
 }
 
 
-/* ********************************** */
-/* NAVIGATION */
-/* ********************************** */
 .main-nav-list{
   list-style: none;
   display: flex;
@@ -179,18 +212,15 @@ transition: all 0.3s;
 }
 
 
+
+
+
+
+
+
 /* ********************************** */
-/* GENRAL COMPONENTS */
+/* HEADER SECTION */
 /* ********************************** */
-/* ********************************** */
-/* GENRAL COMPONENTS */
-/* ********************************** */
-
-
-
-
-
-
 
 
 
@@ -258,3 +288,35 @@ font-weight: 600;
 font-weight: 700;
 color: #cf711f;
 }
+
+
+
+/* ********************************** */
+/* SECTION HOW */
+/* ********************************** */
+
+
+.section-how{
+  padding: 9.6px 0;
+  background-color: orange;
+}
+.section-how div div{
+  height: 100px;
+  background-color: #333;
+
+  font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************** */
+/* GENRAL COMPONENTS */
+/* ********************************** */

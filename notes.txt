@@ -13,3 +13,18 @@
 7.main is new html5 semantic element. which is use for nor repetative content in diff page. like header and footer is same in all page.  so we should not put in main element. section is differnt in all pages so we 
 
 8. we genrally not give height to the header. but if want to sticky navbar than give height. otherwise it's takes automatically from content.
+
+
+9.<section>
+    <div class="continer">
+     code here...
+    
+    </div>
+
+</section>
+
+means give background colot to the section and give max-widtn and padding  to contaiener.so backgrond color remain all the width of screen. 
+
+10. grid-template-columns: 1fr 1fr 1fr and repeat(3,1fr)
+
+11. hero section is wider than other for better visula effect. in out project other part width is 120rem but hero has width 130 rem . so we not use reusable grid in hero section.
