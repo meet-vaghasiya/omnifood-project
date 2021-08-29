@@ -37,3 +37,14 @@ means give background colot to the section and give max-widtn and padding  to co
 15. step-img-box::before  here width 60% workinh but height is not working so use padding-bottom:60% .
 
 16. in image greyscale property, briteness, blur are important property . so please check that. we can make color ful image in gray and in hover we make colorful like in logos section.
+
+17.  if you want to style icon than height , width with font size, color,stroke, fill for color. try with diff property
+
+18. use shadow in cards
+
+19. if div containe image than border-radiour is not visible due to image. so give overflow:hidden in div container to hide image overflow at border and to visible border-radius.
+
+
+20. suppose you add border bottom and remove on hover than we want to remove on hover. suppose we do  border:none than it's remvoe from html so space is reduce in layout. so instead of border:none use border: 2px(same as before) solid transperent.
+
+21. border: 1px solid currenColor takes automatic current text color so no need to require extra color  in border if both color is same.
