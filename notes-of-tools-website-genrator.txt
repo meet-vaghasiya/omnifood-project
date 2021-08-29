@@ -3,3 +3,5 @@
 3.google font ->inter, rubik
 
 4.color for color contrast
+
+5.open color for taking shades of color

@@ -81,87 +81,6 @@ body {
 /* ********************************** */
 
 
-.container{
-  max-width: 120rem;
-  padding: 0 3.2rem;
-  margin: 0 auto;
-
-}
-
-.grid{
-  display: grid;
-gap: 9.6rem;
-/* its  same as grid-template-columns: 1fr 1fr; */
-}
-
-.grid-2-cols{
-grid-template-columns: repeat(2,1fr);
-
-}
-
-.grid-3-cols{
-grid-template-columns: repeat(3,1fr);
-
-}
-
-.grid-4-cols{
-grid-template-columns: repeat(4,1fr);
-
-}
-
-
-
-
-
-
-.heading-primary{
-    font-size: 5.2rem;
-    font-weight: 700;
-    line-height: 1.05;
-    letter-spacing: -0.5px;
-    color: #333;
-    margin-bottom: 3.2rem;
-
-}
-
-.btn:link ,.btn:visited{
-  font-size: 2rem;
-  padding: 1.6rem 3.2rem;
-  border-radius: 9px;
-  text-decoration: none;
-  transition: all 1s;
-  display: inline-block;
-font-weight: 600;
-  
-}
-
-.btn-full:link,.btn-full:visited{
-  background-color: #e67e22;
-  color: #fff;
-  
-}
-
-.btn-full:hover,.btn-full:active{
-  background-color: #cf711f;
-  color: #fff;
-  
-}
-.btn-outline:link,.btn-outline:visited{
-  background-color: #fff;
-color: #555;
-}
-.btn-outline:hover,.btn-outline:active{
-  background-color: #fdf2e9;
-  /* border: 3px solid #fff; */
-  box-shadow:inset 0 0 0 3px #fff;
-color: #555;
-}
-
-
-.margin-right-sm{
-  margin-right: 1.6rem !important;
-}
-
 /* ********************************** */
 /* NAVIGATION */
 /* ********************************** */
@@ -297,17 +216,64 @@ color: #cf711f;
 
 
 .section-how{
-  padding: 9.6px 0;
-  background-color: orange;
-}
-.section-how div div{
-  height: 100px;
-  background-color: #333;
-
-  font-size: 50px;
+  padding: 9.6rem 0;
 }
 
+.step-number{
+  font-size: 8.6rem;
+  color: #ddd;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
 
+}
+.step-description{
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.step-img-box{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step-img{
+  width: 35%;
+}
+
+.step-img-box::before,.step-img-box::after{
+
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+}
+
+
+.step-img-box::before{
+  width: 60%;
+  padding-bottom: 60%;
+  
+  /* height is not working  so use padding-bottom to giveheight; */
+  z-index: -2;
+  
+  background-color: #fdf2e9;
+}
+
+
+.step-img-box::after{
+   width: 45%;
+  padding-bottom: 45%;
+  /* height is not working  so use padding-bottom to giveheight; */
+  
+  z-index: -1;
+  background-color: #fae5d3;
+
+
+}
 
 
 

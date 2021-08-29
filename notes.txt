@@ -28,3 +28,10 @@ means give background colot to the section and give max-widtn and padding  to co
 10. grid-template-columns: 1fr 1fr 1fr and repeat(3,1fr)
 
 11. hero section is wider than other for better visula effect. in out project other part width is 120rem but hero has width 130 rem . so we not use reusable grid in hero section.
+
+12.there should be only one h1 element in all page
+13. img tag does't have child element. so we can not use sudo element like img::before or img::after in img element.
+
+14.gap-row and gap-column seprate proptery  availbale in grid.
+
+15. step-img-box::before  here width 60% workinh but height is not working so use padding-bottom:60% .
