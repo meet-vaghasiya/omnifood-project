@@ -9,3 +9,7 @@
 5. we required only one propery height or width in images .broser automatic get another size. but in display:flex in saffari there is bug so use both property in display:flex in images.
 
 6. for image overlap use negative margin.
+
+7.main is new html5 semantic element. which is use for nor repetative content in diff page. like header and footer is same in all page.  so we should not put in main element. section is differnt in all pages so we 
+
+8. we genrally not give height to the header. but if want to sticky navbar than give height. otherwise it's takes automatically from content.
