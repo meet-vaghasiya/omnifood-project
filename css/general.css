@@ -12,6 +12,14 @@
 row-gap: 6.4rem;
 column-gap: 6.4rem;
 /* its  same as grid-template-columns: 1fr 1fr; */
+/* margin-bottom: 9.6rem; this will added in all grid */
+}
+/* .grid:last-child{
+  margin-bottom: 0 if grid is last child than we no longer required margin so put zero;
+} */
+
+.grid:not(:last-child){
+  margin-bottom: 9.6rem;
 }
 
 .grid-2-cols{
@@ -132,6 +140,27 @@ color: #555;
 .link:hover,.link:active{
   color: #cf711f;
   border-bottom: 1px solid transparent;
+}
+
+
+
+.list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.list-item{
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.list-icon{
+  width: 3rem;
+  height: 3rem;
+  color: #cf711f;
 }
 
 

@@ -52,3 +52,7 @@ means give background colot to the section and give max-widtn and padding  to co
 22. for visula hierky , always make sure header is bigger and contner smaller than header and other size according to content . also make some data bold or strong and give another color for better visual hierky.
 
 23. grid-template-column: 55fr 45fr ; we alsoo use like this as percentage to seprate accoording to percentage.
+
+24. See how label added in pricing section. give ::after sudo selector and give position to top:0 and right:0 .than transform:roate(45deg). add padding to accurate position.
+
+25. if one section container multiple grid than it's we required that margin-bottom in element except last element. so use .grid:not(:last-element)  and set margin-bottom what we reuqired.
