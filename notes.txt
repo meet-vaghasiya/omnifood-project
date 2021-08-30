@@ -56,3 +56,6 @@ means give background colot to the section and give max-widtn and padding  to co
 24. See how label added in pricing section. give ::after sudo selector and give position to top:0 and right:0 .than transform:roate(45deg). add padding to accurate position.
 
 25. if one section container multiple grid than it's we required that margin-bottom in element except last element. so use .grid:not(:last-element)  and set margin-bottom what we reuqired.
+
+
+26. if you want to override some margin than use genral-margin-class so because it has important key word so it's ovderide every margin or any other property
