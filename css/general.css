@@ -68,8 +68,6 @@ line-height: 1.2;
 margin-bottom: 3.2rem;
 }
 
-
-
 .subheading{
   display: block;
   font-size: 2rem;
@@ -78,7 +76,7 @@ margin-bottom: 3.2rem;
   /* letter-spacing: 0.75rem; */
 }
 
-.btn:link ,.btn:visited{
+.btn,.btn:link ,.btn:visited{
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
@@ -87,6 +85,11 @@ margin-bottom: 3.2rem;
   display: inline-block;
 font-weight: 600;
   
+}
+.btn{
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .btn-full:link,.btn-full:visited{
@@ -163,9 +166,11 @@ color: #555;
   color: #cf711f;
 }
 
-
-
-
 strong{
   font-weight: 500;
+}
+
+*:focus{
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(230, 126, 34,0.1);
 }

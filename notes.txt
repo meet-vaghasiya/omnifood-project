@@ -59,3 +59,13 @@ means give background colot to the section and give max-widtn and padding  to co
 
 
 26. if you want to override some margin than use genral-margin-class so because it has important key word so it's ovderide every margin or any other property
+
+27. if div container background only than it's not containe any other thing. so from html side div is empty. so to put extra inforomation so other user can understand  , put role="img" and aria-label='write discription of image'
+
+
+28. in form input,button,select all is not automaticaally inherit fontfamily also color. so use font-family:inherit for that.
+
+29.cat-form input::placeholder for desing place holder
+
+30. if we eneter tab than outline of button of a link is highlited . so remove outline:none in *:focus sudo selector by using this. but after this user pressing tab than he/she will not find where is cursor . so it's better to give some border or  give box-shadow.
+

@@ -1,5 +1,6 @@
 1.hero icon for icon
 2.tint and shade genrator for genrate shade and tint
+maketintsandshades.com
 3.google font ->inter, rubik
 
 4.color for color contrast
