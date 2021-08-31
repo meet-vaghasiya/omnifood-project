@@ -80,5 +80,5 @@ means give background colot to the section and give max-widtn and padding  to co
 
 35. put overflow x hidden in both html and body while if you required in navigatoin toggle button.
 
-
+36. if you use script in head and not use defer. than script will load before html and js will not work because all taraget element is null. so use script at the end of body of use defer in head .
 
