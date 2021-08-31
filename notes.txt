@@ -10,6 +10,7 @@
 
 6. for image overlap use negative margin.
 
+
 7.main is new html5 semantic element. which is use for nor repetative content in diff page. like header and footer is same in all page.  so we should not put in main element. section is differnt in all pages so we 
 
 8. we genrally not give height to the header. but if want to sticky navbar than give height. otherwise it's takes automatically from content.
@@ -68,4 +69,16 @@ means give background colot to the section and give max-widtn and padding  to co
 29.cat-form input::placeholder for desing place holder
 
 30. if we eneter tab than outline of button of a link is highlited . so remove outline:none in *:focus sudo selector by using this. but after this user pressing tab than he/she will not find where is cursor . so it's better to give some border or  give box-shadow.
+
+31. rem and em size 62.5 %, which we curerntly set is not work in  media query means default size is not 10px but it's 16 px event if we set 62.5%.(only inside (max-width:<here>))
+
+32. use max-width in desktop first responsive design.
+
+33. transition will not work in display:none. so opacity:0. but if use press tab than still link willl be focus so make sure we do unclickable link by pointer-evet:none and also set visibility:hidden.
+
+34.overflow-x:hidden only working if nothing is absolutly position relative to body.
+
+35. put overflow x hidden in both html and body while if you required in navigatoin toggle button.
+
+
 
