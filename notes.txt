@@ -91,5 +91,12 @@ so by this margin and positioni apply only when stciky class exists.
 
 40. smooth ScrollTo and scrollIntoView( ) not working in some safari browser . so use   <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script> for smooth scrolling.
 
-41.backdrop-filter property for css.
+41.backdrop-filter property for css. some propery is entirely not supported by browser, some requried webkit prefix..
 
+
+42. see lightbox use
+43.meta data is use for additinnal data of our website in our browser.
+
+44. diff favcon should be use .like user can added in home screen in android or iphone. so use multiple favicon.
+
+45. for apple device favicon should be 180px . for android device menifest.menifest file required for favcon icon.

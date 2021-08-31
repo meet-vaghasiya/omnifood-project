@@ -221,6 +221,10 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+.main-nav-link:hover {
+  color: #cf711f !important;
+}
+
 .list {
   list-style: none;
   display: flex;
@@ -248,5 +252,5 @@ strong {
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(230, 126, 34, 0.1);
+  /* box-shadow: 0 0 0 3px rgba(230, 126, 34, 0.1); */
 }
