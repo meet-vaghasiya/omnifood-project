@@ -3,7 +3,11 @@
 maketintsandshades.com
 3.google font ->inter, rubik
 
-4.color for color contrast
+4.coolors for color contrast
 
 5.open color for taking shades of color
 6.ionicon for icon with js script
+
+ 7.can i use(https://caniuse.com/) websitte for check if css property is working in older browser or not .
+
+ 8.tailwind for css color

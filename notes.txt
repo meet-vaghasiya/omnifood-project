@@ -82,3 +82,14 @@ means give background colot to the section and give max-widtn and padding  to co
 
 36. if you use script in head and not use defer. than script will load before html and js will not work because all taraget element is null. so use script at the end of body of use defer in head .
 
+37. suppose if you want to make navigation sticky than you reuqired to make position abouslte. but issue is that, abosute comes out of docs and change all element postion. so we reqriued magin-top of next elemtn of same height .to add this type by js we require toggle stickry class. so in desing add sticky in body only and remove that only. all other thing should be mange from css. like in css .stycky .navigation{<write css>} and for margin .stucky .respective-div{give margin here}.
+so by this margin and positioni apply only when stciky class exists. 
+
+38. we can implement smooth scroll using scroll-behaviour:smooth. but this is not possible in safari browser.
+
+39. flexbox gap property is missing in some safari browser. so  paster code to fix from browser
+
+40. smooth ScrollTo and scrollIntoView( ) not working in some safari browser . so use   <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script> for smooth scrolling.
+
+41.backdrop-filter property for css.
+

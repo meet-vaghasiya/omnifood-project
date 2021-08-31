@@ -68,6 +68,7 @@ html {
   /* Percentage of user's browser font-size setting */
   overflow-x: hidden;
   font-size: 62.5%;
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -76,83 +77,76 @@ body {
   font-weight: 400;
   color: #555;
   overflow-x: hidden;
-
 }
 
-.container{
+.container {
   max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
-
 }
 
-.grid{
+.grid {
   display: grid;
-/* gap: 9.6rem; */
-row-gap: 6.4rem;
-column-gap: 6.4rem;
-/* its  same as grid-template-columns: 1fr 1fr; */
-/* margin-bottom: 9.6rem; this will added in all grid */
+  /* gap: 9.6rem; */
+  row-gap: 6.4rem;
+  column-gap: 6.4rem;
+  /* its  same as grid-template-columns: 1fr 1fr; */
+  /* margin-bottom: 9.6rem; this will added in all grid */
 }
+
 /* .grid:last-child{
   margin-bottom: 0 if grid is last child than we no longer required margin so put zero;
 } */
 
-.grid:not(:last-child){
+.grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
 
-.grid-2-cols{
-grid-template-columns: repeat(2,1fr);
-
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.grid-3-cols{
-grid-template-columns: repeat(3,1fr);
-
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.grid-4-cols{
-grid-template-columns: repeat(4,1fr);
-
-}
-.grid-5-cols{
-grid-template-columns: repeat(5,1fr);
-
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.grid-center-v{
-    align-items: center;
+.grid-5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
+.grid-center-v {
+  align-items: center;
+}
 
-.heading-primary,.heading-secondary,.heading-tertiary{
-
+.heading-primary, .heading-secondary, .heading-tertiary {
   font-weight: 700;
   letter-spacing: -0.5px;
   color: #333;
 }
 
-.heading-primary{
+.heading-primary {
   margin-bottom: 3.2rem;
-    font-size: 5.2rem;
-    line-height: 1.05;
+  font-size: 5.2rem;
+  line-height: 1.05;
 }
 
-.heading-secondary{
+.heading-secondary {
   font-size: 4.4rem;
-line-height: 1.2;  
-margin-bottom: 9.6rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
 }
 
-.heading-tertiary{
-
-font-size: 2.8rem;
-line-height: 1.2;
-margin-bottom: 3.2rem;
+.heading-tertiary {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
 }
 
-.subheading{
+.subheading {
   display: block;
   font-size: 2rem;
   font-weight: 500;
@@ -160,63 +154,61 @@ margin-bottom: 3.2rem;
   /* letter-spacing: 0.75rem; */
 }
 
-.btn,.btn:link ,.btn:visited{
+.btn, .btn:link, .btn:visited {
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   text-decoration: none;
   transition: all 1s;
   display: inline-block;
-font-weight: 600;
-  
+  font-weight: 600;
 }
-.btn{
+
+.btn {
   border: none;
   cursor: pointer;
   font-family: inherit;
 }
 
-.btn-full:link,.btn-full:visited{
+.btn-full:link, .btn-full:visited {
   background-color: #e67e22;
   color: #fff;
-  
 }
 
-.btn-full:hover,.btn-full:active{
+.btn-full:hover, .btn-full:active {
   background-color: #cf711f;
   color: #fff;
-  
 }
-.btn-outline:link,.btn-outline:visited{
+
+.btn-outline:link, .btn-outline:visited {
   background-color: #fff;
-color: #555;
+  color: #555;
 }
-.btn-outline:hover,.btn-outline:active{
+
+.btn-outline:hover, .btn-outline:active {
   background-color: #fdf2e9;
   /* border: 3px solid #fff; */
-  box-shadow:inset 0 0 0 3px #fff;
-color: #555;
+  box-shadow: inset 0 0 0 3px #fff;
+  color: #555;
 }
 
-
-.margin-right-sm{
+.margin-right-sm {
   margin-right: 1.6rem !important;
 }
-.margin-bottom-sm{
+
+.margin-bottom-sm {
   margin-bottom: 1.6rem !important;
-
 }
 
-.margin-bottom-md{
+.margin-bottom-md {
   margin-bottom: 4.8rem !important;
-
 }
 
-.center-text{
+.center-text {
   text-align: center;
 }
 
-.link:link,.link:visited{
+.link:link, .link:visited {
   text-decoration: none;
   color: #e67e22;
   border-bottom: 1px solid currentColor;
@@ -224,20 +216,19 @@ color: #555;
   transition: all 0.3s;
 }
 
-.link:hover,.link:active{
+.link:hover, .link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
 }
 
-
-
-.list{
+.list {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
 }
-.list-item{
+
+.list-item {
   font-size: 1.8rem;
   display: flex;
   align-items: center;
@@ -245,17 +236,17 @@ color: #555;
   line-height: 1.2;
 }
 
-.list-icon{
+.list-icon {
   width: 3rem;
   height: 3rem;
   color: #cf711f;
 }
 
-strong{
+strong {
   font-weight: 500;
 }
 
-*:focus{
+*:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(230, 126, 34,0.1);
+  box-shadow: 0 0 0 3px rgba(230, 126, 34, 0.1);
 }
