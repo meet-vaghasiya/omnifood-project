@@ -1,6 +1,6 @@
 1. make default font size 62.5%. which convert 1 rem to 10px . so we can easily use rem all over paddding, margin , height , width,font size ...
 
-2. use max-width instead of width for container and for responsive  design(desktop first)
+2. use max-width instead of width for container and forS responsive  design(desktop first)
 
 3. use inset property in box shadow for inner show in elenemtn.
 
@@ -100,3 +100,6 @@ so by this margin and positioni apply only when stciky class exists.
 44. diff favcon should be use .like user can added in home screen in android or iphone. so use multiple favicon.
 
 45. for apple device favicon should be 180px . for android device menifest.menifest file required for favcon icon.
+
+46. try to convert png and jpeg into webp format for image.
+47.
